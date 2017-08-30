@@ -1,0 +1,18 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.2.RELEASE'
+    id 'java'
+}
+
+
+repositories {
+	maven{
+    	url "http://maven.aliyun.com/nexus/content/groups/public"
+    }
+    jcenter()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
+
