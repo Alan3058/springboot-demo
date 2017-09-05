@@ -22,7 +22,7 @@ import org.hibernate.annotations.GenericGenerator;
 /**
  * TODO
  * @author liliangang-1163
- * @date 2017年9月1日下午12:59:00
+ * @date 2017年9月1日下午8:59:00
  * @see
  */
 @Entity

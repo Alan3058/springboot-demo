@@ -21,7 +21,7 @@ import com.ctosb.springboot.model.User;
 /**
  * TODO
  * @author liliangang-1163
- * @date 2017年9月1日下午12:57:29
+ * @date 2017年9月1日下午8:57:29
  * @see
  */
 public interface UserRepository extends JpaRepository<User, String>{

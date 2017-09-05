@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
  * 它等价于 @Configuration, @EnableAutoConfiguration and @ComponentScan 三个
  * 注解的组合。如下三个注解可直接使用 @SpringBootApplication 代替。<br>
  * @author liliangang-1163
- * @date 2017年8月31日下午4:30:07
+ * @date 2017年8月31日下午8:30:07
  */
 @Configuration
 @EnableAutoConfiguration

@@ -24,7 +24,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * TODO
  * @author liliangang-1163
- * @date 2017年9月1日下午6:22:18
+ * @date 2017年9月1日下午8:22:18
  * @see
  */
 @Configuration

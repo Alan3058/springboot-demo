@@ -1,6 +1,8 @@
 
 package com.ctosb.springboot.controller;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -28,6 +30,14 @@ public class ExampleController {
 	@ApiOperation(value = "默认接口")
 	public String home() {
 		return "Hello World!";
+	}
+	
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	@ApiOperation(value = "hello页面")
+	public String hello(Map<String,Object> map) {
+		map.put("message", "hello world!");
+		map.put("name", "alan");
+		return "hello";
 	}
 
 	@RequestMapping(value = "/user", method = RequestMethod.POST)
