@@ -33,7 +33,7 @@ public class UserService {
 	private UserRepository userRepository;
 
 	public List<User> getByName(String name) {
-		return userRepository.getByNameLike(name);
+		return userRepository.getByNameLike("%"+name+"%");
 	}
 
 	public User insert(User user) {
